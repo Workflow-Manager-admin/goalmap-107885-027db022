@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
+import GoalRoadmap from './GoalRoadmap';
 
 // Icons via SVG for minimal dependencies
 const MenuIcon = ({ open }) => (
@@ -76,6 +77,7 @@ function App() {
           <h1>Welcome to GoalMap</h1>
           <p className="muted">Start visualizing and tracking your goals and roadmaps with a beautiful, modern dashboard.</p>
         </section>
+        <GoalRoadmap />
         <section className="dashboard-widgets">
           <div className="widget-card shadow-md">
             <h2>🎯 Goals</h2>
